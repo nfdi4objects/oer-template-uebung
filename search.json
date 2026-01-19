@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "template.html",
+    "href": "template.html",
+    "title": "OER-Übung",
+    "section": "",
+    "text": "Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Übung aus dem Template generiert!\nÜbernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.\nWarum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in der Dokumentation zu den OER-Templates von NFDI4Objects."
+  },
+  {
+    "objectID": "template.html#praktische-bezüge",
+    "href": "template.html#praktische-bezüge",
+    "title": "OER-Übung",
+    "section": "1 Praktische Bezüge",
+    "text": "1 Praktische Bezüge\n\n\nVoraussetzungen\nFür das Verständnis dieser Übung werden vorausgesetzt:\n\nVoraussetzung"
+  },
+  {
+    "objectID": "template.html#datengrundlage",
+    "href": "template.html#datengrundlage",
+    "title": "OER-Übung",
+    "section": "2 Datengrundlage",
+    "text": "2 Datengrundlage"
+  },
+  {
+    "objectID": "template.html#vorbereitung",
+    "href": "template.html#vorbereitung",
+    "title": "OER-Übung",
+    "section": "3 Vorbereitung",
+    "text": "3 Vorbereitung"
+  },
+  {
+    "objectID": "template.html#aufgabenstellungen",
+    "href": "template.html#aufgabenstellungen",
+    "title": "OER-Übung",
+    "section": "4 Aufgabenstellungen",
+    "text": "4 Aufgabenstellungen\nVorschlag für ein Schema mit Aufgabenstellung und Lösungshinweisen in einem Tabset:\n\n4.1 Aufgabe 1\nErläuterungen\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nAufgabenstellung\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n5 Lösungshinweise\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "template.html#lösungshinweise",
+    "href": "template.html#lösungshinweise",
+    "title": "OER-Übung",
+    "section": "5 Lösungshinweise",
+    "text": "5 Lösungshinweise\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "template.html#ergebnisse",
+    "href": "template.html#ergebnisse",
+    "title": "OER-Übung",
+    "section": "6 Ergebnisse",
+    "text": "6 Ergebnisse"
+  },
+  {
+    "objectID": "template.html#transferaufgaben-optional",
+    "href": "template.html#transferaufgaben-optional",
+    "title": "OER-Übung",
+    "section": "7 Transferaufgaben (optional)",
+    "text": "7 Transferaufgaben (optional)"
+  },
+  {
+    "objectID": "template.html#lösungen-optional",
+    "href": "template.html#lösungen-optional",
+    "title": "OER-Übung",
+    "section": "8 Lösungen (optional)",
+    "text": "8 Lösungen (optional)"
+  },
+  {
+    "objectID": "template.html#weiterführende-quellen-und-informationen",
+    "href": "template.html#weiterführende-quellen-und-informationen",
+    "title": "OER-Übung",
+    "section": "Weiterführende Quellen und Informationen",
+    "text": "Weiterführende Quellen und Informationen"
+  },
+  {
+    "objectID": "template.html#nachnutzen",
+    "href": "template.html#nachnutzen",
+    "title": "OER-Übung",
+    "section": "Nachnutzen",
+    "text": "Nachnutzen\n\nAlle sind herzlich eingeladen, diesen Baustein und die zugehörige Copyleft-Lizenz zu nutzen, um ihr Wissen und Expertise in die Verbesserung und Aktualisierung einzubringen.\nUnser Wunsch ist ein lebendiges, stetig aktualisiertes Dokument, das sich durch die Beiträge vieler verändert - im Einklang mit eines sich wandelnden Umfelds. Wir freuen uns im Falle einer Überarbeitung über eine kurze Notiz – das ist aber selbstverständlich keine Pflicht.\n\n🔗 Dieser Baustein als Website\n🔗 Quarto-Quellcode dieses Bausteins\n\n🔗 Diese Übung nutzt das OER-Übungs-Template von NFDI4Objects"
+  },
+  {
+    "objectID": "template.html#disclaimer-einsatz-von-llm",
+    "href": "template.html#disclaimer-einsatz-von-llm",
+    "title": "OER-Übung",
+    "section": "Disclaimer: Einsatz von LLM",
+    "text": "Disclaimer: Einsatz von LLM"
+  }
+]
