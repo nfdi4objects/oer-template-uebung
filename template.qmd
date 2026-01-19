@@ -1,0 +1,139 @@
+---
+title: "OER-Übung"
+subtitle: "Untertitel der OER-Übung"
+lang: de
+date: 1900-01-01
+date-format: "DD.MM.YYYY"
+date-modified: last-modified
+metadata-files:
+  - _layout.yml
+  - _autor_innen.yml
+  - _oer_metadata.yml
+# Optional
+bibliography: bibliographie.bib
+toc: true
+toc-expand: true
+toc-title: |
+  ![](/img/placeholder.png)
+toc-location: right
+number-sections: true # Auf false setzen, wenn keine automatische Abschnittsnummerierung gewünscht
+lightbox: true
+crossref: 
+  lof-title: "Liste der Abbildungen"
+# Für CI-build in github
+execute:
+  freeze: auto
+---
+
+Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Übung aus dem Template generiert!
+
+Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.
+
+Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in der [ Dokumentation zu den OER-Templates von NFDI4Objects]({{< meta template-doku-url >}}).
+
+
+## Praktische Bezüge
+
+<!-- Holen Sie die Lernenden in diesem Absatz ab. Stellen Sie in wenigen Sätzen, mit Beispielen und Fragen das Thema des Bausteins vor. -->
+
+
+### Voraussetzungen {.kolophon .unnumbered .unlisted}
+
+Für das Verständnis dieser Übung werden vorausgesetzt:
+
+- Voraussetzung
+
+<!-- Versuchen sie so detailliert wie möglich die Voraussetzungen für das Verständnis des Bausteins aufzuzählen. Geben sie Hinweise, wo die Lernenden entsprechende/s Kompetenzen/Wissen erwerben können. Damit sind nicht nur Kenntnisse im Forschunsdatenmanagement gemeint sondern auch Grund-Kompetenzen aus der Data Literacy und methodisch-praktische Kompetenzen gemeint. -->
+
+## Datengrundlage
+
+<!-- Erläutern und verlinken sie die Datengrundlage für die Übung. -->
+
+## Vorbereitung
+
+<!-- Was wird für die Übung benötigt? Geben Sie ausführliche Hinweise zu Systemvoraussetzungen und Software inkl. zu ladender Packages oder PlugIns. -->
+
+## Aufgabenstellungen
+
+Vorschlag für ein Schema mit Aufgabenstellung und Lösungshinweisen in einem Tabset:
+
+### Aufgabe 1
+
+**Erläuterungen**
+
+{{< lipsum 1 >}}
+
+::: {.panel-tabset}
+
+#### Aufgabenstellung
+
+{{< lipsum 1 >}}
+
+## Lösungshinweise
+
+{{< lipsum 2 >}}
+
+:::
+
+## Ergebnisse
+
+<!-- Fassen Sie zusammen, welche Ergebnisse am Ende der Übung erreicht sein sollten. -->
+
+## Transferaufgaben (optional)
+
+<!-- Stellen sie weiterführende Aufgaben, in denen die Lernenden die erworbenen Kenntnisse in andere Kontexte transferieren können. -->
+
+## Lösungen (optional)
+
+<!-- Stellen Sie Aufgaben und Lösungen noch einmal systematisch zusammen. -->
+
+## Weiterführende Quellen und Informationen {.appendix .unnumbered}
+
+<!-- Der Ort für weiterführende Quellen und Informationen. Wenn Sie Fußnoten oder Literaturverweise im Text eingefügt haben, werden die bibliographischen Angaben automatisch in weiteren Abschnitten generiert und in das Dokument eingefügt. -->
+
+## Nachnutzen {.appendix .unnumbered}
+
+Alle sind herzlich eingeladen, diesen Baustein und die zugehörige Copyleft-Lizenz zu nutzen, um ihr Wissen und Expertise in die Verbesserung und Aktualisierung einzubringen.
+
+Unser Wunsch ist ein lebendiges, stetig aktualisiertes Dokument, das sich durch die Beiträge vieler verändert - im Einklang mit eines sich wandelnden Umfelds. Wir freuen uns im Falle einer Überarbeitung über eine kurze Notiz – das ist aber selbstverständlich keine Pflicht.
+
+<!-- Verweise auf Website und Repository werden in _oer_metadata.yml global festgelegt. Wenn die OER nicht in einem git-Repository gehostet oder online bereitgestellt werden, können die folgenden zwei Zeilen gelöscht werden. -->
+
+:link: [Dieser Baustein als Website]({{< meta site-url >}}) 
+
+:link: [Quarto-Quellcode dieses Bausteins]({{< meta repo-url >}})
+
+---
+
+:link: Diese Übung nutzt das [OER-Übungs-Template von NFDI4Objects]({{< meta template-repo-url >}})
+
+## Disclaimer: Einsatz von LLM {.appendix .unnumbered}
+
+<!-- Optionale Angaben zum Einsatz von LLM bei der Erstellung oder Überarbeitung der Übung -->
+
+-----
+
+<!-- An dieser Stelle werden von Quarto automatisch generierte Abschnitte angehängt:
+
+Bibliographie:
+Erstellt aus den in der qmd-Datei mit [@bibtex-Schlüssel] referenzierten Einträgen aus der Datei bibliographie.bib.
+Im Text nicht referenzierte Einträge aus der bibliographie.bib werden nicht zitiert.
+Der Zitierstil wird in der _oer_metadata.yml mit dem Schlüssel 'csl:' festgelegt. Im Verzeichnis /assets/csl/ sind gängige Zitierstile als csl-Datei vorhanden. Weitere sind hier zu finden: https://www.zotero.org/styles
+
+Lizenz:
+Angabe wird übernommen aus Schlüssel 'license:' in _oer_metadata.yml
+
+Urheber:innen
+Angabe wird übernommen aus der _oer_metadata.yml Schlüssel 'copyright:'
+
+Zitiervorschläge
+Mit BibTeX zitieren:
+Automatisch von Quarto aus den Metadaten insb. aus dem Schlüssel 'citation:' in der _oer_metadata.yml generiertes bibtex-Zitat.
+
+Bitte zitieren Sie diesen OER-Baustein als:
+Angabe generiert aus:
+  _autor_innen.yml
+  Schlüssel 'title:' in der qmd-Datei
+  Schlüssel 'issued' in der _oer_metadata.yml
+  Schlüssel 'doi:' in der _oer_metadata.yml / Wenn keine doi gesetzt wird der Titel mit dem Wert aus 'site-url:' in _oer_metadata.yml verlinkt.
+-->

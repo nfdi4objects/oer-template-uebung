@@ -1,0 +1,28 @@
+# Metadaten zu Urheber:innen des OER-Bausteins und weiteren Beitragenden
+# Erforderlich sind Vorname (given) und Nachname (family). Die anderen Angaben sind optional.
+# Weitere Optionen zu Autor:innen-Angaben und Rollen in der Quarto-Dokumentation:
+# Autor:innen: https://quarto.org/docs/authoring/front-matter.html#author
+# Rollen: https://quarto.org/docs/journals/authors.html#roles
+author:
+  - name:
+      given: Jane
+      family: Doe
+    orcid: 0000-0000-0000-0000
+    email: jane@doe.com
+    affiliation: 
+      - name: Janes Institution
+        city: Janes City
+        url: https://jane.doe.com
+    attributes:
+      corresponding: true
+    role: "writing – original draft"
+  - name:
+      given: John
+      family: Doe
+    orcid: 0000-0000-0000-0000
+    email: john@doe.com
+    affiliation: 
+      - name: Johns Institution
+        city: Johns City
+        url: https://john.doe.com
+    role: "writing – review & editing"

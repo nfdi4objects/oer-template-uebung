@@ -1,0 +1,148 @@
+logo:
+  images:
+    icon-logo:
+      path: assets/logos/logo_klein.png
+      alt: "Icon"
+    institution-logo:
+      path: assets/logos/logo.png
+      alt: "Logo der Institution"
+    projekt-logo:
+      path: assets/logos/logo_gross.png
+      alt: "Logo des Projekts"
+  small: icon-logo
+  medium: institution-logo
+  large: projekt-logo
+
+color:
+  palette:
+    hintergrund: "#FFFFFF"         # Seitenhintergrund
+    text: "#13294B"                # Standard-Textfarbe
+    akzent: "#0084FF"              # Hauptakzent (Links, Fokus, Buttons)
+    akzent-sekundaer: "#E7C6AC"    # Abgeschwächter Akzent
+    cd-farbe-abstufung1: "#CD8255" # Weitere CD-Farbabstufung
+    cd-farbe-abstufung2: "#BCA089" # Weitere CD-Farbabstufung
+    cd-farbe-abstufung3: "#CFC5BA" # Weitere CD-Farbabstufung
+    flaeche: "#F2F2F2"             # Karten, Boxen, Gruppierungen
+    erfolg: "#2E7D32"              # Positive Hinweise
+    hinweis: "#0288D1"             # Sachliche Informationen
+    warnung: "#ED6C02"             # Warnungen
+    fehler: "#D32F2F"              # Fehler, kritische Hinweise
+
+  background: hintergrund
+  foreground: text
+  primary: akzent
+  secondary: flaeche
+  tertiary: flaeche
+  success: erfolg
+  info: hinweis
+  warning: warnung
+  danger: fehler
+
+typography:
+  fonts:
+    - family: "PT Sans"
+      source: file
+# Lokal eingebundene Schriftart über /assets/fonts/
+      files:
+        - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-regular.woff2
+          weight: 400
+          style: normal
+        - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-italic.woff2
+          weight: 400
+          style: italic
+        - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-700.woff2
+          weight: 700
+          style: normal
+        - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-700italic.woff2
+          weight: 700
+          style: italic
+# Schriftart DSGVO-konform über https://fonts.bunny.net/ geladen
+    - family: Noto Sans Mono
+      source: bunny
+# Globale typographische Vorgaben
+  base: 
+    family: PT Sans
+    size: 1.1rem
+    weight: normal
+    line-height: 1.4
+  headings:
+    family: PT Sans
+    weight: 400
+    style: normal
+    line-height: 1.5
+    color: text
+  monospace: 
+    family: Noto Sans Mono
+    size: 0.85rem
+    weight: normal
+    color: text
+    background-color: flaeche
+  link: 
+    weight: normal
+    color: text
+    decoration: underline
+
+# Überschreiben der Bootstrap-Defaults
+# https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+# https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/_bootstrap-variables.scss
+defaults:
+  bootstrap:
+    defaults:
+  # Vorder- und Hintergrund
+      body-bg: $brand-hintergrund
+      navbar-bg: $brand-akzent-sekundaer
+      navbar-fg: $brand-text
+  # Abstände
+      spacer: 1rem
+  # Überschriften
+      h1-font-size: 2.0rem
+      h2-font-size: 1.8rem
+      h3-font-size: 1.5rem
+      h4-font-size: 1.25rem
+      h5-font-size: 1.25rem
+  # Code-Blocks
+      code-block-bg: $brand-flaeche
+      code-block-border-left: $brand-akzent
+      code-block-border-left-size: 1px
+      code-block-padding-left: 0.6rem
+      code-block-bg-padding: 0.4rem
+      btn-code-copy-color: $brand-akzent
+      btn-code-copy-color-active: $brand-akzent
+  # Inline-Code
+      code-bg: $brand-flaeche
+      code-color: $brand-text
+  # Table of Contents
+      toc-font-size: 0.9rem
+      toc-color: $brand-text
+      toc-active-border: $brand-akzent
+      toc-active-border-width: 10px 
+      toc-inactive-border: $brand-flaeche
+  # Callout
+      callout-border-width: 2px
+      callout-border-scale: 0%
+      callout-icon-scale: 10%
+      callout-margin-top: 1.25rem
+      callout-margin-bottom: 1.25rem
+      callout-color-note: $brand-akzent
+      callout-color-tip: $brand-akzent
+      callout-color-caution: $brand-akzent
+      callout-color-warning: $brand-akzent
+      callout-color-important: $brand-akzent
+  # Tabset
+      nav-link-padding-y: .5rem
+      nav-link-padding-x: 1rem
+      nav-link-font-size: 1.2rem
+      nav-link-font-weight: 400
+      nav-link-color: $brand-text
+      nav-tabs-border-color: $brand-hintergrund
+      nav-tabs-border-width: 3px
+      nav-tabs-border-radius: 5px
+      nav-tabs-link-hover-border-color: $brand-hintergrund
+      nav-tabs-link-active-color: $brand-text
+      nav-tabs-link-active-bg: $brand-hintergrund
+      nav-tabs-link-active-border-color: $brand-hintergrund
+      nav-pills-border-radius: 5px
+      nav-pills-link-active-color: $brand-text
+      nav-pills-link-active-bg: $brand-hintergrund
+      nav-underline-gap: 1rem
+      nav-underline-border-width: .125rem

@@ -1,0 +1,67 @@
+# Metadaten zur Steuerung des Layouts
+# Alle Optionen in der Quarto-Dokumentation: https://quarto.org/docs/reference/formats/html.html
+
+# Benötigte Quarto-Version
+quarto-required: ">= 1.8.25"
+
+# Formatierung
+# vgl. https://quarto.org/docs/reference/formats/html.html
+format:
+  html:
+    theme: 
+      - default
+      - assets/n4o_oer_html.scss
+    brand: _brand.yml
+    embed-resources: false # embed-resources: true erstellt eine eigenständige HTML-Datei ohne externe Abhängigkeiten für die Übernahme in LMS wie Moodle oder OLAT.
+    page-layout: article # Für die Steuerung des Seiten-Layouts vgl. https://quarto.org/docs/output-formats/page-layout.html. Weitere Optionen für die Arbeit mit page-layout: article hier: https://quarto.org/docs/authoring/article-layout.html
+# Einstellungen für Webpage-Funktionen
+    code-tools: # Symbol mit Beschriftung .md in der Kopfzeile zum Anzeigen des Markdown-Quellcodes der Seite
+      source: true
+      toggle: false
+      caption: "qmd"
+    back-to-top-navigation: true # Am Ende der Seite wird angeboten, an den Anfang zu springen
+    anchor-sections: true # Beim Hovern über die 'headings' wird ein Ankersymbol angezeigt, das mit der http-Adresse der Überschrift verlinkt ist.
+    code-copy: true # Kopierbutton mit ARIA-Label
+    df-print: paged # Tabellen mit Paginierung (tastaturbedienbar)
+    reference-location: document # Fußnoten und Anmerkungen werden rechts des Absatzes angezeigt.
+    citation-location: document # Im Text zitierte Literaturnachweise werden am Ende der Seite gesammelt.
+    preview-links: true # Bei Klick auf einen Link eine Vorschau anzeigen
+    link-external-icon: true # Icon für externe Links anzeigen
+    link-external-newwindow: true # Links in einem neuen Tab/Fenster anzeigen
+    title-block-style: default
+    title-block-categories: true
+    smooth-scroll: false # Barrierefreiheit: Vermeidet animiertes scrollen.
+# Styling von Code-Boxen # zum Styling von Codeboxen vgl. https://quarto.org/docs/output-formats/html-code.html
+    code-overflow: wrap
+    code-line-numbers: true
+    highlight-style: github
+    respect-user-color-scheme: true
+    cap-location: bottom
+# Für die Steuerung der Appendices vgl. https://quarto.org/docs/authoring/appendices.html
+    appendix-style: default
+    appendix-cite-as: true
+
+from: markdown+emoji # Für die Nutzung von shortcodes für Emojis in Quarto-Markdown vgl. https://quarto.org/docs/visual-editor/content.html#emojis und https://gist.github.com/rxaviers/7360908
+
+# Anpassungen der von Quarto automatisch erzeugten Bezeichnungen in der Dokumentstruktur. vgl. https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language-de.yml
+crossref:
+  sec-prefix: Abschnitt
+language:
+  toc-title-document: "Inhaltsverzeichnis"
+  toc-title-website: "Auf dieser Seite"
+  title-block-affiliation-single: "Institution"
+  title-block-affiliation-plural: "Institutionen"
+  title-block-published: "Veröffentlicht am"
+  title-block-modified: "Zuletzt geändert am"
+  title-block-keywords: "Stichwörter"
+  section-title-appendices: "Anhänge"
+  section-title-footnotes: "Fußnoten"
+  section-title-references: "Bibliographie"
+  section-title-reuse: "Lizenz"
+  section-title-copyright: "Urheber:innen"
+  section-title-citation: "Zitation"
+  appendix-attribution-bibtex: "BibTeX"
+  appendix-attribution-cite-as: "Kurzzitat"
+  repo-action-links-edit: "Seite bearbeiten"
+  repo-action-links-source: "Quelltext aufrufen"
+  repo-action-links-issue: "Problem melden"

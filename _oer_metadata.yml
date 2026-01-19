@@ -1,0 +1,59 @@
+# Beschreibende Metadaten
+abstract: |
+  Abstract zur Übung.
+abstract-title: "Zusammenfassung"
+description: |
+  Kurzbeschreibung der Inhalte der Übung.
+funding: |
+  Optionale Angaben zur Förderung, in deren Rahmen die Übung erstellt wurde
+# vgl. https://quarto.org/docs/authoring/front-matter.html#funding
+
+# Open Graph Metadaten für HTML-Header: https://quarto.org/docs/websites/website-tools.html#open-graph
+website:
+  open-graph:
+    locale: de_DE
+    type: article
+
+# Erschließung der Inhalte mit Quarto
+# Mit categories und keywords können die Inhalte von Quarto-Dokumenten auf zwei Ebenen erschlossen werden. Übersichtsseiten mit Suchfunktion lassen sich so automatisch mit Quarto erstellen. vgl. https://quarto.org/docs/websites/website-listings.html
+# Für 'categories' sollte das kontrollierte Vokabular der dini-AG "Kompetenzzentrum Interoperable Metadaten (KIM)" genutzt werden: https://skohub.io/dini-ag-kim/hcrt/heads/master/w3id.org/kim/hcrt/index.html
+categories:
+  - Übung
+# Für die inhaltliche Erschließung keywords/Stichworte/tags sollte ein kontrolliertes Vokabular genutzt werden.
+keywords:
+  - Stichwort 1
+  - Stichwort 2
+
+# Technische Metadaten
+site-url: &site https://github.com/nfdi4objects/oer-template-skript
+repo-url: &repo https://nfdi4objects.github.io/oer-template-skript/
+doi: XXXXXXX.XXXXXXX
+
+# Vorgaben für den Appendix "Zitat"
+csl: assets/csl/internet-archaeology.csl # Verweis auf CSL-Datei mit Zitierformat. Weitere CSL-Dateien im Verzeichnis assets/csl/. Fehlende CSL-Dateien können hier heruntergeladen werden: https://www.zotero.org/styles
+# vgl. https://quarto.org/docs/reference/metadata/citation.html
+citation:
+  type: document
+  container-title: "Open Educational Resource"
+  publisher: Institution
+  issued: 2026
+  url: *site
+  license: "https://creativecommons.org/licenses/by/4.0/"
+
+# Rechtliche Metadaten
+copyright: "Freitext-Angaben zu Inhaber:innen des Urheberrechts an den Inhalten (Anzupassen im Schlüssel `copyright` in der Datei `_oer_metadata.yml`)"
+license: CC BY # # Optionen für Lizensierungsangaben: https://quarto.org/docs/authoring/front-matter.html#license. Wird übernommen in automatisch erstellten Appendix "Lizenz".
+
+# Spezifische Metadaten für den Export in fachliche Metadatenschemata
+
+# OERSI (vgl. https://oersi.gitlab.io/metadata-form/metadata-generator.html)
+bildungsstufe: https://w3id.org/kim/educationalLevel/level_A
+materialart: https://w3id.org/kim/hcrt/drill_and_practice
+status: Draft  # Draft, Incomplete, Published
+
+# Schema für eigene Key-Value-Paare mit Bindestrich: custom-key: "custom-value"
+beispiel-key: beispiel-value
+# Shortcuts für Verweise auf verlinkte OER-Bausteine für die Nutzung im Text. Beispiel:
+# url_n4o-oer_metadaten: https://gitlab.rlp.net/n4o/oer-bausteine/n4o-oer-skript-einfuehrung-metadaten'
+# Referenz  im Text: {{< meta url_n4o-oer_metadaten >}}
+template-doku-url: https://kacebe.github.io/n4o_oer-template-dokumentation/templates.html
