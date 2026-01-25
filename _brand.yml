@@ -1,13 +1,19 @@
+# _brand.yml
+# Zentrale Branding- und Theme-Konfiguration für FAIRedelte OER mit Quarto von NFDI4Objects
+# Lizenz: MIT
+# Farbsemantik: color:
+# Typografie: typography:
+# Komponentenmechanik: defaults.bootstrap.defaults
 logo:
   images:
     icon-logo:
-      path: assets/logos/logo_klein.png
+      path: assets/logos/n4o_logo_verlauf_200px.png
       alt: "Icon"
     institution-logo:
-      path: assets/logos/logo.png
+      path: assets/logos/n4o_logo_verlauf_claim_kurz_h200px.png
       alt: "Logo der Institution"
     projekt-logo:
-      path: assets/logos/logo_gross.png
+      path: assets/logos/n4o_logo_oer_hsm.png
       alt: "Logo des Projekts"
   small: icon-logo
   medium: institution-logo
@@ -18,7 +24,7 @@ color:
     hintergrund: "#FFFFFF"         # Seitenhintergrund
     text: "#13294B"                # Standard-Textfarbe
     akzent: "#0084FF"              # Hauptakzent (Links, Fokus, Buttons)
-    akzent-sekundaer: "#E7C6AC"    # Abgeschwächter Akzent
+    cd-farbe: "#E7C6AC"            # Hauptfarbe des CD
     cd-farbe-abstufung1: "#CD8255" # Weitere CD-Farbabstufung
     cd-farbe-abstufung2: "#BCA089" # Weitere CD-Farbabstufung
     cd-farbe-abstufung3: "#CFC5BA" # Weitere CD-Farbabstufung
@@ -31,7 +37,7 @@ color:
   background: hintergrund
   foreground: text
   primary: akzent
-  secondary: flaeche
+  secondary: cd-farbe-abstufung1 # Secondary ist eine UI-Farbe. Sie sollte nicht für Text verwendet werden bzw. im scss für Textelemente (insb. citation) überschrieben werden, wenn die Farbe nicht kontrastreich genug ist.
   tertiary: flaeche
   success: erfolg
   info: hinweis
@@ -67,7 +73,7 @@ typography:
     line-height: 1.4
   headings:
     family: PT Sans
-    weight: 400
+    weight: 500
     style: normal
     line-height: 1.5
     color: text
@@ -90,7 +96,7 @@ defaults:
     defaults:
   # Vorder- und Hintergrund
       body-bg: $brand-hintergrund
-      navbar-bg: $brand-akzent-sekundaer
+      navbar-bg: $brand-cd-farbe
       navbar-fg: $brand-text
   # Abstände
       spacer: 1rem
@@ -101,11 +107,14 @@ defaults:
       h4-font-size: 1.25rem
       h5-font-size: 1.25rem
   # Code-Blocks
-      code-block-bg: $brand-flaeche
+      code-block-bg: $brand-cd-farbe-abstufung3
       code-block-border-left: $brand-akzent
-      code-block-border-left-size: 1px
+      code-block-border-left-size: 2px
       code-block-padding-left: 0.6rem
       code-block-bg-padding: 0.4rem
+      code-block-border-width: 2px
+      code-block-border-color: $brand-akzent
+      code-block-border-radius: 4px
       btn-code-copy-color: $brand-akzent
       btn-code-copy-color-active: $brand-akzent
   # Inline-Code
@@ -116,32 +125,34 @@ defaults:
       toc-color: $brand-text
       toc-active-border: $brand-akzent
       toc-active-border-width: 10px 
-      toc-inactive-border: $brand-flaeche
+      toc-inactive-border: $brand-cd-farbe-abstufung3
   # Callout
       callout-border-width: 2px
+      callout-border-radius: 4px
       callout-border-scale: 0%
-      callout-icon-scale: 10%
+      callout-icon-scale: 100%
       callout-margin-top: 1.25rem
       callout-margin-bottom: 1.25rem
-      callout-color-note: $brand-akzent
-      callout-color-tip: $brand-akzent
-      callout-color-caution: $brand-akzent
-      callout-color-warning: $brand-akzent
-      callout-color-important: $brand-akzent
+      callout-color-note: $brand-cd-farbe
+      callout-color-tip: $brand-hinweis
+      callout-color-caution: $brand-warnung
+      callout-color-warning: $brand-warnung
+      callout-color-important: $brand-fehler
+      
   # Tabset
       nav-link-padding-y: .5rem
       nav-link-padding-x: 1rem
-      nav-link-font-size: 1.2rem
+      nav-link-font-size: 1.1rem
       nav-link-font-weight: 400
       nav-link-color: $brand-text
-      nav-tabs-border-color: $brand-hintergrund
-      nav-tabs-border-width: 3px
-      nav-tabs-border-radius: 5px
-      nav-tabs-link-hover-border-color: $brand-hintergrund
+      nav-tabs-border-color: $brand-akzent
+      nav-tabs-border-width: 2px
+      nav-tabs-border-radius: 4px
+      nav-tabs-link-hover-border-color: $brand-akzent
       nav-tabs-link-active-color: $brand-text
       nav-tabs-link-active-bg: $brand-hintergrund
-      nav-tabs-link-active-border-color: $brand-hintergrund
-      nav-pills-border-radius: 5px
+      nav-tabs-link-active-border-color: $brand-akzent
+      nav-pills-border-radius: 1px
       nav-pills-link-active-color: $brand-text
       nav-pills-link-active-bg: $brand-hintergrund
       nav-underline-gap: 1rem

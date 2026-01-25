@@ -29,7 +29,7 @@ Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Übung aus dem Te
 
 Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.
 
-Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in der [ Dokumentation zu den OER-Templates von NFDI4Objects]({{< meta template-doku-url >}}).
+Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in der [Dokumentation zu den OER-Templates von NFDI4Objects]({{< meta template-doku-url >}}).
 
 
 ## Praktische Bezüge
@@ -69,7 +69,7 @@ Vorschlag für ein Schema mit Aufgabenstellung und Lösungshinweisen in einem Ta
 
 {{< lipsum 1 >}}
 
-## Lösungshinweise
+#### Lösungshinweise
 
 {{< lipsum 2 >}}
 
@@ -103,15 +103,13 @@ Unser Wunsch ist ein lebendiges, stetig aktualisiertes Dokument, das sich durch 
 
 :link: [Quarto-Quellcode dieses Bausteins]({{< meta repo-url >}})
 
----
+-----
 
-:link: Diese Übung nutzt das [OER-Übungs-Template von NFDI4Objects]({{< meta template-repo-url >}})
+Diese Übung nutzt ein [FAIR-OER-Übungs-Template von NFDI4Objects](https://nfdi4objects.github.io/oer-template-skript/).
 
 ## Disclaimer: Einsatz von LLM {.appendix .unnumbered}
 
 <!-- Optionale Angaben zum Einsatz von LLM bei der Erstellung oder Überarbeitung der Übung -->
-
------
 
 <!-- An dieser Stelle werden von Quarto automatisch generierte Abschnitte angehängt:
 
