@@ -14,7 +14,7 @@ bibliography: bibliographie.bib
 toc: true
 toc-expand: true
 toc-title: |
-  ![](/img/placeholder.png)
+  {{< brand logo large >}}
 toc-location: right
 number-sections: true # Auf false setzen, wenn keine automatische Abschnittsnummerierung gewünscht
 lightbox: true

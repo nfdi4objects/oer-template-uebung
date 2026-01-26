@@ -7,13 +7,13 @@
 logo:
   images:
     icon-logo:
-      path: assets/logos/n4o_logo_verlauf_200px.png
+      path: assets/logos/logo_klein.png
       alt: "Icon"
     institution-logo:
-      path: assets/logos/n4o_logo_verlauf_claim_kurz_h200px.png
+      path: assets/logos/logo.png
       alt: "Logo der Institution"
     projekt-logo:
-      path: assets/logos/n4o_logo_oer_hsm.png
+      path: assets/logos/logo_gross.png
       alt: "Logo des Projekts"
   small: icon-logo
   medium: institution-logo
