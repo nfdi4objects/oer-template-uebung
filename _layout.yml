@@ -2,7 +2,7 @@
 # Alle Optionen in der Quarto-Dokumentation: https://quarto.org/docs/reference/formats/html.html
 
 # Benötigte Quarto-Version
-quarto-required: ">= 1.8.25"
+quarto-required: ">= 1.8.0"
 
 # Formatierung
 # vgl. https://quarto.org/docs/reference/formats/html.html
